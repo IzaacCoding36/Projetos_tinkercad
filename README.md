@@ -6,5 +6,6 @@ Projetos desenvolvidos no Tinkercad:
 - Semáforos
 - Displays
 - Leds
+- Sensores
 
 *mais coisas serão desenvolvidas futuramente*
