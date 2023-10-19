@@ -7,5 +7,6 @@ Projetos desenvolvidos no Tinkercad:
 - Displays
 - Leds
 - Sensores
+- Motores
 
 *mais coisas serão desenvolvidas futuramente*
