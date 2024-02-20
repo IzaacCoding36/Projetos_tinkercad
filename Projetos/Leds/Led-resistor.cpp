@@ -1,7 +1,9 @@
 //Código C++//
 
+//Definições//
+
 void setup()
-{pinMode(13, OUTPUT);}
+{ pinMode(13, OUTPUT);}
 
 void loop()
 { digitalWrite(13, HIGH);

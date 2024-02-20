@@ -3,10 +3,10 @@ Esse repositório foi criado para disponibilizar/desenvolver os códigos necess�
 
 Projetos desenvolvidos no Tinkercad:
 
-- Semáforos
 - Displays
 - Leds
 - Sensores
 - Motores
+- Sistemas
 
 *mais coisas serão desenvolvidas futuramente*

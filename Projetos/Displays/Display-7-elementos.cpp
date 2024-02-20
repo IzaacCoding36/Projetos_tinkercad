@@ -1,5 +1,7 @@
 //Código C++//
 
+//Definições//
+
 void setup()
 { pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);

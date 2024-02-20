@@ -1,4 +1,4 @@
-//Código C++//
+// Código C++ //
 
 void setup()
 { pinMode(11, OUTPUT);

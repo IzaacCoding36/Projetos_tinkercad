@@ -4,7 +4,7 @@
 LiquidCrystal lcd_1(0, 1, 2, 3, 4, 5);
 
 void setup()
-{lcd_1.begin(16, 2);}
+{ lcd_1.begin(16, 2);}
 
 void loop()
 { lcd_1.scrollDisplayLeft();

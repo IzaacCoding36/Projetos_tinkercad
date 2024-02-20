@@ -1,4 +1,6 @@
-//Código C++//
+// Código C++ //
+
+#include <LiquidCrystal.h>
 
 int distancia = 0;
 
@@ -12,18 +14,16 @@ long readUltrasonicDistance(int triggerPin, int echoPin)
   pinMode(echoPin, INPUT);
   return pulseIn(echoPin, HIGH);}
 
+LiquidCrystal lcd_1(0, 1, 5, 4, 3, 2);
+
 void setup()
-{ pinMode(13, OUTPUT);
-  pinMode(12, OUTPUT);}
+{ lcd_1.begin(16, 2);}
 
 void loop()
-{ distancia = 0.01723 * readUltrasonicDistance(7, 6);
-  if (distancia < 50) {
-    digitalWrite(13, LOW);
-    digitalWrite(12, HIGH);
-  } else {
-    digitalWrite(13, HIGH);
-    digitalWrite(12, LOW);
-  }
-  delay(10);
-}
+{ distancia = 0.01723 * readUltrasonicDistance(11, 10);
+  lcd_1.clear();
+  lcd_1.setCursor(3, 4);
+  lcd_1.print("cm");
+  lcd_1.setCursor(0, 1);
+  lcd_1.print(distancia);
+  delay(10);}
